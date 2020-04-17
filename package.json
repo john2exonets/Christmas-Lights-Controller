@@ -1,0 +1,27 @@
+{
+  "name": "XmasLights",
+  "version": "1.0.0",
+  "description": "Home Christmas Lights Controller",
+  "main": "xmaslights.js",
+  "scripts": {
+    "test": "echo \"Error: No tests specified.\" && exit 1",
+    "start": "node xmaslights.js"
+  },
+  "keywords": [
+    "MQTT",
+    "NodeJS"
+  ],
+  "author": "John D. Allen",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/john2exonets/Christmas-Lights-Controller.git"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12"
+  },
+  "dependencies": {
+    "moment": "^2.24.0",
+    "mqtt": "^2.6"
+  }
+}
